@@ -24,7 +24,7 @@
 
     <!-- Strings related to login by Ikode customised-->
     <string name="verification_text"> Is this your passphrase? if YES, please enter your verification code. Otherwise, Click cancel or GO back to the main screen </string>
-    <string name="title_activity_about">About</string>
+    <string name="title_activity_about">About this App</string>
     <string name="title_activity_splash">Welcome</string>
     <string name="title_activity_home">Main</string>
 

@@ -27,6 +27,33 @@
     <string name="title_activity_about">About this App</string>
     <string name="title_activity_splash">Welcome</string>
     <string name="title_activity_home">Main</string>
+    <string name="title_activity_user_profile">UserProfile</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="eulalabel">End User License Agreement</string>
+    <string name="copyrightlabel">© Copyright 2016, Ikona AG</string>
+    <string name="apachelicensetext">Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at \n\nhttp://www.apache.org/licenses/LICENSE-2.0 \n\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</string>
+    <string name="allrights">© Ikona AG All Rights Reserved 2016</string>
+    <string name="pleaseread">Please read this End-User License Agreement (\"Agreement\") carefully before downloading or using our IkodeSC Reader® for mobile devices (\"Application\").\n\nBy downloading or using the Application, you are agreeing to be bound by the terms and conditions of this Agreement, our more detailed \"Terms of Use\" agreement and our \"Privacy Policy\", which you find in the individual Terms of Use and Privacy Policy files in this application. If you do not agree to the terms of this Agreement, the Terms of Use and the Privacy Policy, do not download or use the Application.</string>
+    <string name="licenseLabel">License</string>
+    <string name="licenseText">Ikona AG grants you a revocable, non¬exclusive, non¬transferable, limited license to download, install and use the Application solely for your personal, non¬commercial purposes strictly in accordance with the terms of this Agreement.</string>
+    <string name="restrictionLabel">Restrictions</string>
+    <string name="restrictionText">You agree not to, and you will not permit others to license, sell, rent, lease, assign, distribute, transmit, host, outsource, disclose or otherwise commercially exploit the Application or make the Application available to any third party.</string>
+    <string name="modificationLabel">Modifications to Application</string>
+    <string name="modificationText">Ikona AG reserves the right to modify, suspend or discontinue, temporarily or permanently, the Application or any service to which it connects, with or without notice and without liability to you.</string>
+    <string name="termLabel">Term and Termination</string>
+    <string name="termText">This Agreement shall remain in effect until terminated by you or Ikona AG. Ikona AG may, in its sole discretion, at any time and for any or no reason, suspend or terminate this Agreement with or without prior notice.  This Agreement will terminate immediately, without prior notice from Ikona AG, in the event that you fail to comply with any provision of this Agreement. You may also terminate this Agreement by deleting the Application and all copies thereof from your mobile device.  Upon termination of this Agreement, you shall cease all use of the Application and delete all copies of the Application from your mobile device.</string>
+    <string name="severability">Severability</string>
+    <string name="severabilityText">If any provision of this Agreement is held to be unenforceable or invalid, such provision will be changed and interpreted to accomplish the objectives of such provision to the greatest extent possible under applicable law and the remaining provisions will continue in full force and effect.</string>
+    <string name="ammendmentsLabel">Amendments to this Agreement</string>
+    <string name="ammendmentText">Ikona AG reserves the right, at its sole discretion, to modify or replace this Agreement at any time. If a revision is material we will provide at least 15 days\' notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion.</string>
+    <string name="contactInfoLabel">Contact Information</string>
+    <string name="contactText">If you have any questions about this Agreement, please contact us by email at support@ikonasoftware.com.</string>
+    <string name="ikonaAddress">Ikona AG Rue Robert-Céard 6, 1204 Genève, Switzerland</string>
+    <string name="updateInfo">Last updated: January 26, 2016</string>
 
 
 </resources>

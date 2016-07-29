@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingBottom="8dp"
+    android:paddingTop="8dp"
+    android:orientation="vertical"
+    tools:context="ikona.ikode.MainActivity">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:elevation="8dp"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:background="@drawable/ic_ikodeglobe"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="Ikode Icon" />
+
+        <com.devspark.robototextview.widget.RobotoTextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:typeface="roboto_medium_italic"
+            android:text="licensed by Ikona ®"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            />
+
+        <com.devspark.robototextview.widget.RobotoTextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:typeface="roboto_medium_italic"
+            android:text="Version 28.07.2016"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            />
+
+        <com.devspark.robototextview.widget.RobotoTextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:typeface="roboto_medium_italic"
+            android:text="Updates 1.1.2"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            />
+
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp" />
+
+
+
+
+
+</LinearLayout>

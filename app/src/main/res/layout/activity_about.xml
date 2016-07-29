@@ -15,6 +15,7 @@
         android:orientation="vertical">
 
         <com.devspark.robototextview.widget.RobotoButton
+            android:id="@+id/AboutApp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:typeface="roboto_medium_italic"
@@ -71,6 +72,7 @@
             android:text="EULA"
             android:layout_gravity="left"
             android:elevation="4dp"
+            android:onClick="eulaClick"
             app:textStyle="normal"
             android:textSize="20sp"/>
 
@@ -148,7 +150,6 @@
             android:elevation="4dp"
             app:textStyle="normal"
             android:textSize="20sp"/>
-
 
 
     </LinearLayout>

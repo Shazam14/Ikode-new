@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Eula">
+
+    <ScrollView
+        android:id="@+id/scrollLicense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBGround"
+        android:fillViewport="true">
+        
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_vertical"
+          android:orientation="vertical">
+
+          <com.devspark.robototextview.widget.RobotoTextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              app:typeface="roboto_medium"
+              android:textSize="20sp"
+              android:text="@string/copyrightlabel"/>
+
+          <com.devspark.robototextview.widget.RobotoTextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              app:typeface="roboto_regular"
+              android:textSize="16sp"
+
+              android:autoLink="web"
+              android:text="@string/apachelicensetext"/>
+
+          <com.devspark.robototextview.widget.RobotoTextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          app:typeface="roboto_medium"
+          android:textSize="20sp"
+
+          android:text="@string/allrights"/>
+
+
+          <com.devspark.robototextview.widget.RobotoTextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              app:typeface="roboto_medium"
+              android:textSize="15sp"
+
+              android:text="@string/pleaseread"/>
+
+          <com.devspark.robototextview.widget.RobotoTextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          app:typeface="roboto_medium"
+          android:textSize="20sp"
+          android:text="@string/licenseLabel"/>
+
+          <com.devspark.robototextview.widget.RobotoTextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              app:typeface="roboto_medium"
+              android:textSize="15sp"
+              android:text="@string/licenseText"/>
+
+          <com.devspark.robototextview.widget.RobotoTextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              app:typeface="roboto_medium"
+              android:textSize="20sp"
+              android:text="@string/restrictionLabel"/>
+
+          <com.devspark.robototextview.widget.RobotoTextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              app:typeface="roboto_medium"
+              android:textSize="15sp"
+              android:text="@string/restrictionText"/>
+
+          <com.devspark.robototextview.widget.RobotoTextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              app:typeface="roboto_medium"
+              android:textSize="20sp"
+              android:text="@string/modificationLabel"/>
+
+          <com.devspark.robototextview.widget.RobotoTextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              app:typeface="roboto_medium"
+              android:textSize="15sp"
+              android:text="@string/modificationText"/>
+
+          <com.devspark.robototextview.widget.RobotoTextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              app:typeface="roboto_medium"
+              android:textSize="20sp"
+              android:text="@string/termLabel"/>
+
+          <com.devspark.robototextview.widget.RobotoTextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              app:typeface="roboto_medium"
+              android:textSize="15sp"
+              android:text="@string/termText"/>
+
+
+          <com.devspark.robototextview.widget.RobotoTextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              app:typeface="roboto_medium"
+              android:textSize="20sp"
+              android:text="@string/severability"/>
+
+          <com.devspark.robototextview.widget.RobotoTextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              app:typeface="roboto_medium"
+              android:textSize="15sp"
+              android:text="@string/severabilityText"/>
+
+          <com.devspark.robototextview.widget.RobotoTextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              app:typeface="roboto_medium"
+              android:textSize="20sp"
+              android:text="@string/ammendmentsLabel"/>
+
+
+          <com.devspark.robototextview.widget.RobotoTextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              app:typeface="roboto_medium"
+              android:textSize="15sp"
+              android:text="@string/ammendmentText"/>
+
+          <com.devspark.robototextview.widget.RobotoTextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              app:typeface="roboto_medium"
+              android:textSize="20sp"
+              android:text="@string/contactInfoLabel"/>
+
+
+          <com.devspark.robototextview.widget.RobotoTextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              app:typeface="roboto_medium"
+              android:textSize="15sp"
+              android:text="@string/contactText"/>
+
+          <com.devspark.robototextview.widget.RobotoTextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              app:typeface="roboto_medium"
+              android:textSize="20sp"
+              android:text="@string/ikonaAddress"/>
+
+          <com.devspark.robototextview.widget.RobotoTextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              app:typeface="roboto_medium"
+              android:textSize="15sp"
+              android:text="@string/updateInfo"/>
+
+
+
+
+      </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

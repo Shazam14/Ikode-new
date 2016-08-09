@@ -180,6 +180,7 @@
             app:typeface="roboto_mono_medium"
             android:layout_gravity="center"
             android:text="HELP"
+            android:onClick="showHelp"
             android:drawableLeft="@drawable/ic__ikodehelp"
             android:gravity="left|center"
             android:layout_weight="1"

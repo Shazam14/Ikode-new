@@ -90,6 +90,18 @@
                 android:textColor="#ffffff"
                 android:textStyle="bold" />
 
+            <com.devspark.robototextview.widget.RobotoButton
+                android:id="@+id/email_forgot_password"
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_shadow"
+                android:layout_marginTop="16dp"
+                android:textAllCaps="false"
+                android:text="@string/action_forgot_password"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

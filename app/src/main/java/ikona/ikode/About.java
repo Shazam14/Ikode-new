@@ -14,6 +14,7 @@ public class About extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about);
 
+        //anbout us intent buttons
         RobotoButton aboutappbutton = (RobotoButton)findViewById(R.id.AboutApp);
         aboutappbutton.setOnClickListener(new View.OnClickListener() {
             @Override
